@@ -1,0 +1,68 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+.heading {
+  font-family: "Roboto";
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.msg-card1 {
+  background-color: blue;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin: 20px;
+}
+.discription {
+  color: #ffffff;
+  font-size: 20px;
+  font-family: "Roboto";
+}
+.msg-card2 {
+  background-color: #2dca73;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.msg-card3 {
+  background-color: #ffb800;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+.msg-card4 {
+  background-color: #ff0b37;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.notifications-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .notifications-container {
+    justify-content: start;
+  }
+  .heading {
+    font-size: 45px;
+  }
+}
